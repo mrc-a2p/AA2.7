@@ -1,0 +1,256 @@
+/* HOME */
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+html, body {
+    height: 100%;
+}
+
+.cont-home{
+    padding: 100px 0px 100px 0px;
+    max-width: 621px;
+    text-align: center;
+    margin: 100px auto;
+    height: 100%;
+}
+
+.cont-form{
+    justify-content: space-around;
+    display: flex;
+    align-items: center;
+    padding-top: 50px;
+}
+
+a{
+    color: black;
+    text-decoration:none;
+}
+
+body{
+    margin-bottom: 0px;
+    padding: 0px;
+}
+
+/* HEADER */
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.cont-header{
+    margin: 20px auto;
+    padding: 10px 0px 10px 40px;
+}
+
+.titlte-header{
+    font-size: 20px;
+}
+
+.header_clase{
+    background-color: #85C1E9;
+}
+
+
+/* FOOTER */
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    position: relative;
+    padding-bottom: 5em;
+}
+
+.cont-footer{
+    left:0px;
+    bottom:0px;
+    height:0px;
+    width:100%;
+    padding: 40px 0px 40px 40px;
+    border-top: solid;
+    position: fixed;
+}
+
+.title-footer{
+    font-size: 20px;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+/* REGISTER */
+
+.form{
+    margin: 80px auto;
+    width: 320px;
+    border: 2.5px solid black;
+    overflow: hidden;
+    box-sizing: border-box;
+    padding: 30px 20px;
+    text-align: center;
+}
+
+.aside{
+    padding: 10px 0px 0px 0px;
+    display: flex;
+    justify-content: space-around;
+}
+
+/* ESCRITORIO */
+
+
+.aside_home{
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-bottom: solid;
+    padding-bottom: 10px;
+    background-color: #85C1E9;
+}
+
+.nav_home{
+    display: flex;
+    display: flex;
+    width: 125px;
+    justify-content: space-between;
+}
+
+.aside_home a{
+    font-size: 20px;
+}
+
+.title_home{
+    font-size: 40px;
+}
+
+.text_home{
+    margin: 20px auto;
+    padding: 10px;
+    font-size: 18px;
+}
+
+.title_escritorio{
+    margin: 20px auto;
+    padding: 10px;
+}
+
+.text_materias{
+    display: flex;
+    width: 1110px;
+    margin: 0 auto;
+    justify-content: space-between;
+    padding-top: 200px;
+}
+
+.master_enlace{
+    border: 2px solid black;
+    padding: 5px;
+}
+
+.enlace_home{
+    font-size: 35px;
+    padding: 5px;
+}
+
+/* ERROR */
+
+.error_login{
+    font-size: 20px;
+    text-align: center;
+    color: red;
+    padding: 100px 0px 100px 0px;
+    max-width: 621px;
+    text-align: center;
+    margin: 100px auto;
+    height: 100%;
+}
+
+/* CLASE */
+
+
+.header_clase{
+    display: flex;
+    margin: 10px 0px 10px 10px auto;
+    padding: 10px 0px 10px 10px;
+    border-bottom: 2px solid black;
+}
+
+.clase_enlace{
+    width: 150px;
+}
+
+.text_clase{
+    padding-top: 100px;
+    text-align: center;
+    font-size: 30px;
+}
+
+.master_desc{
+    padding-top: 20px;
+    text-align: center;
+    width: 600px;
+    margin:  0 auto;
+}
+
+/* CURSO */
+
+.master_curso{
+    margin:  0 auto;
+    width: 500px;
+    padding-top: 50px;
+}
+
+.master_curso{
+    padding: 30px 0px 30px 0px;
+}
+.cont_curso{
+    border: 2px solid black;
+    padding: 30px 10px 30px 10px;
+}
+
+.title_curso{
+    font-size: 21px;
+}
+.text_curso{
+    padding: 20px 0px 20px 0px;
+    font-size: 13px;
+}
+
+.profesor_curso{
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.enlace_curso{
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.entra_curso{
+    border: 2px solid black;  
+    padding: 5px;
+}
+
+/* USER */
+
+
+.master-user{
+    text-align: center;
+    padding-top: 10em;
+}
+
+.cont-user{
+    border: 2px solid black;
+    width: 300px;
+    margin: 0 auto;
+}
